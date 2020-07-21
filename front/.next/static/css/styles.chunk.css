@@ -1,0 +1,123 @@
+.div1 {
+    border: 0.5px solid #464646;
+}
+.divf {
+    width:438px;
+}
+.div1 {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: #132B99;
+}
+.div2 {
+    position: absolute;
+width: 396px;
+height: 40px;
+left: 522px;
+top: 206px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+border: 0.5px solid #7F8080;
+box-sizing: border-box;
+}
+.div3 {
+    
+position: absolute;
+width: 396px;
+height: 40px;
+left: 522px;
+top: 260px;
+
+background: #FFFFFF;
+border: 0.5px solid #7F8080;
+box-sizing: border-box;
+}
+
+.div4 {
+    
+position: absolute;
+width: 396px;
+height: 54px;
+left: 522px;
+top: 396px;
+color: #000000;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+}
+
+.font1 {
+    position: relative;
+width: 204px;
+height: 44px;
+left: 622px;
+top: 105px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: xx-large;
+line-height: 44px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.font2 {
+    position: absolute;
+width: 54px;
+height: 15px;
+left: 630px;
+top: 464px;
+
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.font3 {
+    position: absolute;
+    width: 64px;
+    height: 15px;
+    left: 697px;
+    top: 464px;
+    
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.font4 {
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    left: 773px;
+    top: 464px;
+    
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/
