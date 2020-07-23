@@ -302,34 +302,46 @@ var dummy_user = {
 
 var MypageLeft = function MypageLeft(_ref) {
   var children = _ref.children;
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      marginTop: '50px'
+      margin: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    style: {
+      padding: "30px"
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Avatar"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, dummy_user.nickname[0])), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, dummy_user.nickname), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Row"], {
-    style: {
-      margin: '40px 20px 40px 20px'
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Avatar"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
+    __self: this
+  }, dummy_user.nickname[0])), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
+    },
+    __self: this
+  }, dummy_user.nickname)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Button"], {
@@ -344,7 +356,7 @@ var MypageLeft = function MypageLeft(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }, "\uC990\uACA8\uCC3E\uAE30\uD55C \uAC15\uC758"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Button"], {
@@ -359,7 +371,7 @@ var MypageLeft = function MypageLeft(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
     },
     __self: this
   }, "\uC990\uACA8\uCC3E\uAE30\uD55C \uC0AC\uC774\uD2B8"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Button"], {
@@ -374,7 +386,7 @@ var MypageLeft = function MypageLeft(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: this
   }, "\uB0B4\uAC00 \uC4F4 \uB9AC\uBDF0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Button"], {
@@ -389,7 +401,7 @@ var MypageLeft = function MypageLeft(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 27
     },
     __self: this
   }, "\uB0B4\uAC00 \uC4F4 \uAE00"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_2__["Button"], {
@@ -404,7 +416,7 @@ var MypageLeft = function MypageLeft(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 30
     },
     __self: this
   }, "\uB0B4\uAC00 \uC4F4 \uB313\uAE00")));
@@ -1053,7 +1065,7 @@ var MyFavoriteSites = function MyFavoriteSites() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    xs: 18,
+    xs: 21,
     md: 14,
     __source: {
       fileName: _jsxFileName,
@@ -1083,11 +1095,8 @@ var MyFavoriteSites = function MyFavoriteSites() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_1__["List"], {
-    style: {
-      margin: '30px'
-    },
     grid: {
-      md: 2
+      md: 3
     },
     dataSource: [{
       site: 'udemy',
@@ -1107,7 +1116,7 @@ var MyFavoriteSites = function MyFavoriteSites() {
         href: item.url,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
@@ -1115,12 +1124,11 @@ var MyFavoriteSites = function MyFavoriteSites() {
           backgroundColor: 'gray',
           width: '200px',
           height: '150px',
-          overflow: 'hidden',
-          padding: 'none'
+          overflow: 'hidden'
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 29
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_1__["Row"], {
@@ -1131,7 +1139,7 @@ var MyFavoriteSites = function MyFavoriteSites() {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1140,19 +1148,19 @@ var MyFavoriteSites = function MyFavoriteSites() {
         height: "130px",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 33
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_1__["Row"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 36
         },
         __self: this
       }, item.site))));
@@ -1162,15 +1170,7 @@ var MyFavoriteSites = function MyFavoriteSites() {
       lineNumber: 22
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(antd__WEBPACK_IMPORTED_MODULE_1__["Col"], {
-    xs: 3,
-    md: 5,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  })));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MyFavoriteSites);

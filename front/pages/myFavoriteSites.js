@@ -12,7 +12,7 @@ const MyFavoriteSites = () => {
                 <Col xs={3} md={5} style={{padding:'10px', textAlign:'center'}}>
                     <MypageLeft/>
                 </Col>
-                <Col xs={18} md={14}>
+                <Col xs={21} md={14}>
                     <Row>
                         <div style={{textAlign:'center', margin:'30px'}}>
                             즐겨찾기한 사이트
@@ -20,15 +20,14 @@ const MyFavoriteSites = () => {
                     </Row>
                     <Row >
                         <List
-                            style={{ margin: '30px' }}
-                            grid={{md: 2}}
+                            grid={{md: 3}}
                             dataSource={[{site: 'udemy', url: 'naver.com',  profile:'https://i.ytimg.com/vi/wnV7v93S9HQ/maxresdefault.jpg'},
                             {site: 'Inflearn',   url: 'naver.com',  profile:'https://grepp-cloudfront.s3.ap-northeast-2.amazonaws.com/programmers_imgs/learn/course-10336/thumb_course_10336.jpg' },
                             {site: 'Inflearn',  url: 'naver.com', profile:'https://t1.daumcdn.net/cfile/tistory/2141A44158620E590D' }]}
                             renderItem={item => (
                                 <Link href={item.url}>
                                 <List.Item 
-                                    style={{backgroundColor:'gray', width:'200px',height:'150px',overflow:'hidden', padding:'none'}}
+                                    style={{backgroundColor:'gray', width:'200px',height:'150px',overflow:'hidden'}}
                                 >
                                     <Row xs={5} md={5} style={{textAlign:'center'}}>
                                         <img src={item.profile} width='100%' height='130px'></img>
@@ -42,8 +41,6 @@ const MyFavoriteSites = () => {
                             )}
                         />
                     </Row>
-                </Col>
-                <Col xs={3} md={5}>
                 </Col>
             </div>
         </>

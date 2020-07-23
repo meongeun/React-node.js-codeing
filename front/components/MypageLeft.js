@@ -9,10 +9,12 @@ const dummy_user = {
 
 const MypageLeft = ({ children }) => {
     return (
-        <>
-            <Row style={{marginTop:'50px'}}>{<Avatar>{dummy_user.nickname[0]}</Avatar>}</Row>
-            <Row>{dummy_user.nickname}</Row>
-            <Row style={{margin:'40px 20px 40px 20px'}}>
+        <div style={{ margin:"20px"}}>
+            <Row style={{padding:"30px"}}>
+                <Row>{<Avatar>{dummy_user.nickname[0]}</Avatar>}</Row>
+                <Row>{dummy_user.nickname}</Row>
+            </Row>
+            <Row>
                 <Button href='myFavoriteLectures' style={{width:'100%',backgroundColor:'#464646', color:'white', border:"0px", borderRadius:'0', fontSize:"0.9em"}}>
                     즐겨찾기한 강의
                 </Button>
@@ -29,7 +31,7 @@ const MypageLeft = ({ children }) => {
                     내가 쓴 댓글
                 </Button>
             </Row>
-        </>
+        </div>
     );
   };
   export default MypageLeft;
