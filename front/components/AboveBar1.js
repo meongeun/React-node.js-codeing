@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import PropTypes from 'prop-types';
-import { Menu, Button, Select } from 'antd';
-import { useSelector, useDispatch } from 'react-redux';
-import LoginForm from './LoginForm';
-import UserProfile from './UserProfile';
-import { LOAD_USER_REQUEST } from '../reducers/user';
+import {Button, Select } from 'antd';
 
 const { Option } = Select;
 

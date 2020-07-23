@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, Col, Row, List, Avatar } from 'antd';
+import { Button, Card, Col, Row, List, Avatar } from 'antd';
 import AboveBar1 from '../components/AboveBar1';
 import Link from 'next/link';
 
@@ -34,21 +34,16 @@ const MyPage = () => {
                         <List
                             grid={{gutter: 16}}
                             dataSource={[{ name: '즐거찾기한 강의', url: '/myFavoriteLectures'},
-                                        { name: '즐겨찾기한 사이트', url: '/myFavoritesSites'},
+                                        { name: '즐겨찾기한 사이트', url: '/myFavoriteSites'},
                                         { name: '내가 쓴 리뷰', url: '/myreview'},
                                         { name: '내가 쓴 글', url: '/mypost'},
                                         { name: '댓글 단 글', url: '/mycomment'}
                                     ]}
                             renderItem={item => (
-                                <List.Item >
-                                    <Link href={item.url}>
-                                        <Card style={{border:"1px solid"}}>
-                                            <Card.Meta
-                                                title={item.name}
-                                                style={{ height: '10px'}}
-                                            />
-                                        </Card>
-                                    </Link>
+                                <List.Item style={{textAlign:'center'}}>
+                                    <Button href={item.url} style={{border:"1px solid", width:'100%'}}>
+                                        {item.name}
+                                    </Button>
                                 </List.Item>
 
                             )}
