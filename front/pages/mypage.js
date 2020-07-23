@@ -33,7 +33,7 @@ const MyPage = () => {
                     <Row style={{marginTop:'10px'}}>
                         <List
                             grid={{gutter: 16}}
-                            dataSource={[{ name: '즐거찾기한 강의', url: '/myFavoriteLectures'},
+                            dataSource={[{ name: '즐겨찾기한 강의', url: '/myFavoriteLectures'},
                                         { name: '즐겨찾기한 사이트', url: '/myFavoriteSites'},
                                         { name: '내가 쓴 리뷰', url: '/myreview'},
                                         { name: '내가 쓴 글', url: '/mypost'},
